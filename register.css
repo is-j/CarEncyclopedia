@@ -1,0 +1,60 @@
+/* Apply styles to the entire scene */
+.scene {
+    -fx-background-color: #1b1b32;
+}
+
+/* Apply styles to the form */
+.grid-pane {
+    -fx-padding: 20px;
+    -fx-vgap: 10px;
+    -fx-hgap: 10px;
+    -fx-background-color: #fff;
+    -fx-border-color: #3b3b4f;
+    -fx-border-width: 2px;
+}
+
+/* Apply styles to the form elements */
+.label {
+    -fx-text-fill: #f5f6f7;
+    -fx-font-size: 16px;
+}
+
+.text-field, .password-field {
+    -fx-background-color: #0a0a23;
+    -fx-border-color: #3b3b4f;
+    -fx-border-width: 1px;
+    -fx-text-fill: #f5f6f7;
+}
+
+.radio-button, .check-box {
+    -fx-text-fill: #f5f6f7;
+}
+
+.choice-box {
+    -fx-background-color: #0a0a23;
+    -fx-border-color: #3b3b4f;
+    -fx-border-width: 1px;
+    -fx-color: #f5f6f7;
+}
+
+.text-area {
+    -fx-background-color: #0a0a23 !important;
+    -fx-border-color:  #0a0a23;
+    -fx-border-width: 1px;
+    -fx-color: #0a0a23;
+}
+
+.spinner {
+    -fx-background-color: #0a0a23;
+    -fx-border-color: #3b3b4f;
+    -fx-border-width: 1px;
+    -fx-text-fill: #f5f6f7;
+}
+
+.button {
+    -fx-background-color: #3b3b4f;
+    -fx-text-fill: #f5f6f7;
+    -fx-font-size: 16px;
+}
+
+
